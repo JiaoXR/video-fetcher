@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VideoGrabber</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>视频资源</h1>
+      <div class="actions">
+        <button id="refresh" title="刷新">🔄</button>
+        <button id="open-history" title="历史">📜</button>
+      </div>
+    </header>
+    <main>
+      <div id="status" class="muted">正在检测当前页面中的视频…</div>
+      <ul id="list"></ul>
+    </main>
+    <footer>
+      <small class="muted">提示：在页面播放或加载后再次打开更准确</small>
+    </footer>
+    <script src="popup.js"></script>
+  </body>
+  </html>
+
